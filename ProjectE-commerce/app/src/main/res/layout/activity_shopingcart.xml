@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mostafa.projecte_commerce.shopingcart"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <Button
+        android:id="@+id/submit"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="continue"
+        android:textColor="#fff"
+        />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listproduct"
+        android:layout_marginTop="150dp"
+        android:layout_above="@+id/submit"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"></ListView>
+
+    <EditText
+        android:id="@+id/toalmoney"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="totalmoney"
+        android:inputType="textEmailAddress"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/deletename"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="nameP"
+        android:inputType="textEmailAddress"
+        android:layout_below="@+id/toalmoney"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/nameofupdatedelemment"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="nameP"
+        android:inputType="textEmailAddress"
+        android:layout_below="@+id/deletename"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp" />
+
+    <EditText
+        android:id="@+id/quantitynum"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/nameofupdatedelemment"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="22dp"
+        android:hint="quantity"
+        android:layout_toRightOf="@+id/nameofupdatedelemment"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:layout_alignBottom="@+id/nameofupdatedelemment" />
+
+    <Button
+        android:id="@+id/btndelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/quantitynum"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="15dp"
+
+        android:layout_marginRight="15dp"
+        android:text="delete" />
+
+    <Button
+        android:id="@+id/btnupdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="update"
+        android:layout_below="@+id/btndelete"
+        android:layout_alignLeft="@+id/btndelete"
+        android:layout_alignStart="@+id/btndelete" />
+
+
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">ProjectE-commerce</string>
+    <string-array name="name">
+        <item>Samsung galaxy A8</item>
+        <item>Samsung galaxy S9 plus</item>
+        <item>Samsung J7 pro </item>
+        <item>Nokia 7 plus</item>
+        <item>Samsung galaxy A5</item>
+        <item>Huawei mate 10</item>
+        <item>Huawei GR5</item>
+        <item>Huawei Y6 prime</item>
+        <item>iphone 7 plus</item>
+        <item>iphone 8 plus</item>
+
+    </string-array>
+    <string-array name="sal">
+        <item>8600</item>
+        <item>8500</item>
+        <item>6000</item>
+        <item>5000</item>
+        <item>7000</item>
+        <item>4000</item>
+        <item>3000</item>
+        <item>3500</item>
+        <item>12000</item>
+        <item>15000</item>
+
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+</resources>
